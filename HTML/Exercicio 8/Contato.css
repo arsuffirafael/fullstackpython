@@ -43,7 +43,7 @@ a:hover {
 }
 
 @media (max-width:425px) {
-    nav, article , .coluna{ 
+    nav, article { 
         width:100%;
         min-width:320px;
     }
