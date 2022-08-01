@@ -1,0 +1,53 @@
+header {
+    background-color:sienna;
+    text-align: center;
+    padding: 40px;
+    margin-bottom: 0px;
+    font-size: 30px;
+    font-family: serif;
+}
+
+div {
+    width: 100%;
+}
+nav {
+    margin-top: -25px;
+    background-color: antiquewhite;
+    font-family: serif;
+    font-size: 20px;
+    width: 20%;
+    height: 50vh;
+    float: left;
+    display: table;
+}
+article {
+    text-align: justify;
+    font-family: serif;
+    font-size:20px;
+    width: 80%;
+    height: 100%;
+}
+a:visited {
+	color: rgb(112, 112, 112);
+}
+a:hover {
+    color:blue
+}
+
+@media (max-width: 768px) {
+    html {
+        background-color: white; 
+    }
+    article h2 {
+        text-align:left;
+    }
+   
+
+}
+
+@media (max-width:425px) {
+    nav, article , .coluna{ 
+        width:100%;
+        min-width:320px;
+    }
+}

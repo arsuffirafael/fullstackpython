@@ -1,0 +1,72 @@
+*{
+    box-sizing: border-box;
+}
+header {
+    background-color:sienna;
+    text-align: center;
+    padding: 40px;
+    margin-bottom: 0px;
+    font-size: 30px;
+    font-family: serif;
+}
+
+div {
+    width: 100%;
+}
+nav {
+    margin-top: -25px;
+    background-color: antiquewhite;
+    font-family: serif;
+    font-size: 20px;
+    width: 20%;
+    height: 50vh;
+    float: left;
+    display: table;
+}
+article {
+    margin-left:20%;
+    font-family: serif;
+    font-size:20px;
+    width: 80%;
+    height: 100%;
+}
+a:visited {
+	color: rgb(112, 112, 112);
+}
+a:hover {
+    color:blue
+}
+
+form {
+    padding: 10px;
+}
+
+form div{
+    border-bottom: 1px;
+    margin: 1rem;
+    padding: 2rem;
+}
+
+[name="nome"], [name="cidade"] {
+	width: 50%;
+}
+[name="rua"]{
+    width:80%;
+}
+
+@media (max-width: 768px) {
+    html {
+        background-color: white; 
+    }
+    label,input  {
+        display:block;
+    }
+
+}
+
+@media (max-width:425px) {
+    nav, article , form{ 
+        width:100%;
+        min-width:320px;
+    }
+}

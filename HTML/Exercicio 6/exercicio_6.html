@@ -1,0 +1,91 @@
+<!DOCTYPE hmtl>
+
+<html lang="pt-br">
+	<head>
+		<title> Site de viagem genérico</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width", initial-scale=1>
+		<link rel="stylesheet" type="text/css" href="./viagemcss.css">
+
+	</head>
+	<body>
+		
+		<header>
+			<h2> Viage para o Egito!</h2>
+		</header>
+		<a id="ad" href=""></a>
+		<section>
+			<nav>
+				<h3>Outros Destinos</h3>
+				<ul>
+					<li><a href="">Europa</a></li>
+					<li><a href="">América do Norte</a></li>
+					<li><a href="">América do Sul</a></li>
+					<li><a href="">Ásia</a></li>
+					<li><a href="">África</a></li>
+					<li><a href="">Oceania</a></li>
+					<li><a href="">Caribe</a></li>
+				</ul>
+			</nav>
+			<article>
+				<h1> Faça seu orçamento</h1>
+				<p>Preencha os campos abaixo</p>
+
+				<form method="post">
+					<div>
+						<label for="nome">Nome</label><br>
+						<input type="text" name="nome" id="nome" placeholder="Digite seu nome">
+					</div>	
+					<div>
+						<label for="email">E-mail</label><br>
+						<input type="text" name="email" id="email" placeholder="Ex: nome@email.com">
+					</div>
+					<div>	
+						<label for="telefone">Telefone</label><br>
+						<input type="text" name="telefone" id="telefone" placeholder="Ex: (99) 99999-9999">
+					</div>
+					<div class="data">	
+						<label for="ida">Data Ida</label><br>
+						<input type="text" name="ida" id="ida" placeholder="Ex: 99/99/9999">
+					</div>
+					<div class="data">
+						<label for="volta">Data Volta</label><br>
+						<input type="text" name="volta" id="volta" placeholder="Ex: 99/99/9999">
+					</div>
+					<div>
+						<p>
+							<label class="viagem">Tipo de viagem</label>
+							<input type="radio" name="normal" value="passagem">Apenas passagem
+							<input type="radio" name="psg+hop" value="passagem+hospedagem">Passagem + Hospedagem
+						</p>
+					</div>
+					<div>
+						<label>Aeroporto de partida</label>
+						<select>
+							<option value="GRU">(GRU) Guarulhos</option>
+							<option value="GIG">(GIG) Antônio Carlos Jobim</option>
+							<option value="BEL">(BEL) Belém</option>
+							<option value="CNF">(CNF) Belo Horizonte-Confins</option>
+							<option value="BSB">(BSB) Brasília</option>
+							<option value="VIX">(VIX) Vitória</option>
+							<option value="IGU">(IGU) Foz do Iguaçu</option>
+							<option value="FLN">(FLN) Hercílio Luz</option>
+							<option value="FOR">(FOR) Fortaleza</option>
+							<option value="MAO">(MAO) Manaus</option>
+							<option value="POA">(POA) Salgado Filho</option>
+							<option value="REC">(REC) Recife</option>
+							<option value="SSA">(SSA) Salvador</option>
+						</select>
+					</div>
+					<div>
+						<input type="submit">
+					</div>
+			</article>
+		</section>
+		<footer>
+			<h3>Entre em contato: </h3>
+			<p>Telefone: (11) 91234-5678</p><br>
+			<p>E-mail: viagem@viagem.com</p>
+		</footer>
+	</body>
+</html>

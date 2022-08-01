@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+    <head>
+        <title>Café da Tarde</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width", initial-scale=1>
+        <link rel="stylesheet" type="text/css" href="./Formulario.css">
+    </head>
+
+    <body>
+        
+        <header>
+            <h2>Está na hora do café!</h2>
+            
+        </header>
+        
+        <section> 
+            <div>
+            <nav>
+                <ul>
+                    <li><a href="./Home.html">Home</a></li>
+                    <li><a href="./Formulario.html">Formulário</a></li>
+                    <li><a href="./Contato.html">Contato</a></li>
+                </ul>
+            </nav> 
+            <article>
+                <h2>Preencha o formulário abaixo para adicionar seu nome na lista: </h2>
+                
+                <form method="post">
+                    
+                    <div>
+                    <h3>Dados: </h3>
+                        <label for="nome">Nome</label>
+                        <input type="text" name="nome" id="nome" placeholder="Digite seu nome">
+                        <label for="email">E-mail</label>
+                        <input type="email" name="email" id="email" placeholder="Digite seu email">
+                    </div>
+
+                    <div>
+                        <h3>Endereço: </h3>
+                        <label for="rua">Rua</label>
+                        <input type="text" name="rua" id="rua" placeholder="Digite o nome da sua rua">
+                    </div>
+                    <div>
+                        <label for="CEP">CEP</label>
+                        <input type="number" name="CEP" id="CEP" placeholder="Digite o CEP">
+                    </div>
+
+                    <div>
+                        
+                        <label for="Cidade">Cidade</label>
+                        <input type="text" name="cidade" id="cidade" placeholder="Digite sua cidade">
+						<label>Estado</label>
+						<select>
+                            <option value="AC">Acre</option>
+                            <option value="AL">Alagoas</option>
+                            <option value="AP">Amapá</option>
+							<option value="AM">Amazonas</option>
+							<option value="BA">Bahia</option>
+							<option value="CE" selected>Ceará</option>
+                            <option value="ES">Espirito Santo</option>
+                            <option value="GO">Goias</option>
+                            <option value="MA">Maranhão</option>
+                            <option value="MT">Mato Grosso</option>
+                            <option value="MS">Mato Grosso do Sul</option>
+                            <option value="MG">Minas Gerais</option>
+                            <option value="PA">Pará</option>
+                            <option value="PB">Paraíba</option>
+                            <option value="PR">Paraná</option>
+                            <option value="PE">Pernambuco</option>
+                            <option value="PI">Piauí</option>
+                            <option value="RJ">Rio de Janeiro</option>
+                            <option value="RN">Rio Grande do Norte</option>
+                            <option value="RS">Rio Grande do Sul</option>
+                            <option value="RO">Rondônia</option>
+                            <option value="RR">Roraima</option>
+                            <option value="SC">Santa Catarina</option>
+                            <option value="SP">São Paulo</option>
+                            <option value="SE">Sergipe</option>
+                            <option value="TO">Tocantins</option>
+                            <option value="DF">Distrito Federal</option>
+						</select>
+					</div>
+
+
+                </form>
+            </article>
+            </div>
+        </section>
+    </body>
+</html>
